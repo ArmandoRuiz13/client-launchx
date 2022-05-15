@@ -4,8 +4,8 @@ class fizzinfo {
   getAll() {
     return http.get("/fizzinfo");
   }
-  get(id) {
-    return http.get(`/fizzinfo/${id}`);
+  get(ids) {
+    return http.get(`/fizzinfo/${ids}`);
   }
 }
 export default new fizzinfo();
